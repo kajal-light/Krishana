@@ -1,4 +1,4 @@
-package com.company.largestNumber;
+package com.company.loops;
 
 public enum Efficiency {
 

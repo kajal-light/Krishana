@@ -1,8 +1,6 @@
 package com.company;
 
-import com.company.largestNumber.*;
-
-import java.util.Scanner;
+import com.company.loops.*;
 
 public class Main {
 
