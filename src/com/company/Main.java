@@ -16,7 +16,7 @@ public class Main {
        //calculator
       //  System.out.println(Calculator.getAns());
       //Pattern
-      //  SquarePattern.print();
+     // SquarePattern.print();
     //find factorial
         System.out.println("factors is:" + Factorial.getFactor(5)) ;
     //count of table
@@ -24,6 +24,13 @@ public class Main {
     //GCD
        // System.out.println("GCD IS:" + Gcd.getGcd(10,15));
 //AllDivisorsOfNumber
-        AllDivisorsOfNumber.getAllDivisorsOfNumber(15,"MORE_EFFICIENT");
+      //  AllDivisorsOfNumber.getAllDivisorsOfNumber(15,"MORE_EFFICIENT");
+        //all prime
+
+        System.out.println("isPrime " + Prime.isPrime(4,"MORE_EFFICIENT"));
+        Fibonacci.getFibonacci(1);
+        System.out.println(FirstDigit.isFirstDigit(5234,"EFFICIENT"));
+
+        PrimeFactor.getPrimeFactor(100);
     }
 }
