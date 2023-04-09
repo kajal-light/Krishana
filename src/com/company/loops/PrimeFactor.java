@@ -12,13 +12,8 @@ public class PrimeFactor {
 
                     System.out.println("prime factors" +i);
                        x=x*i;
-
                 }
-
-
             }
-
-
         }
 
 

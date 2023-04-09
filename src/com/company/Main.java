@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.arraysString.*;
 import com.company.loops.*;
 
 public class Main {
@@ -18,17 +19,23 @@ public class Main {
     //find factorial
         System.out.println("factors is:" + Factorial.getFactor(5)) ;
     //count of table
-       // TableOfNumber.getTable(3,10);
+        TableOfNumber.getTable(3,10);
     //GCD
        // System.out.println("GCD IS:" + Gcd.getGcd(10,15));
 //AllDivisorsOfNumber
-      //  AllDivisorsOfNumber.getAllDivisorsOfNumber(15,"MORE_EFFICIENT");
+      AllDivisorsOfNumber.getAllDivisorsOfNumber(9,"MORE_EFFICIENT");
         //all prime
 
         System.out.println("isPrime " + Prime.isPrime(4,"MORE_EFFICIENT"));
-        Fibonacci.getFibonacci(1);
+        Fibonacci.getFibonacci(8);
         System.out.println(FirstDigit.isFirstDigit(5234,"EFFICIENT"));
 
         PrimeFactor.getPrimeFactor(100);
+
+        SumAndAverageArray.getSumAndAverage();
+        MaximumArray.getMaximumArray();
+        DistinctArray.getDistinctArray();
+        System.out.println(IsArraySorted.getIsArraySorted());
+        PatternSearching.getPattern();
     }
 }

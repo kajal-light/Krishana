@@ -19,7 +19,7 @@ if(Efficiency.isBasic(n)) {
     //:x<=y
     //x<=squreroot(n);
 
-    for (int i = 1; i*i <= a; i++) {
+    for (int i = 1; i*i <=                                                                                                                                                                                                                 a; i++) {
         if (a % i == 0) {
 
             System.out.println("small divisor" + i);
@@ -40,6 +40,10 @@ int i;
 
             }
         }
+    if(i-(a/i)==1)
+    {
+        i--;
+    }
     for( ; i>=1; i--) {
         if(a % i == 0){
             System.out.println("larger divisor" + a/i );
