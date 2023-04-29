@@ -3,10 +3,23 @@ package com.company;
 import com.company.arraysString.*;
 import com.company.loops.*;
 
+import java.security.spec.RSAOtherPrimeInfo;
+
 public class Main {
 
     public static void main(String[] args) {
+       String a = null;
+     
 
+        System.out.println(a);
+      
+        System.out.println(BinaryToDecimal.getConverted("1010"));
+        System.out.println(DecimalToBinary.getConverted(10));
+        System.out.println(ReverseString.getReverseString("kajal"));
+        System.out.println("extra char " + ExtraChar.getExtra("efg","gtfe"));
+        PatternMatcher.follPatt("xxyyx");
+
+        System.out.println("isPalindrpme " + CheckPalindrome.getCheckPalindrome("abab"));
         System.out.println("Largest number is:  " + LargestNumber.getLargestNumber(3, 4, 6));
         //leap year
        //year must divide by 4 but not 100
@@ -37,5 +50,7 @@ public class Main {
         DistinctArray.getDistinctArray();
         System.out.println(IsArraySorted.getIsArraySorted());
         PatternSearching.getPattern();
+
+
     }
 }

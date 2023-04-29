@@ -10,7 +10,7 @@ public class DistinctArray {
 
         for(int i=0;i<arr.length;i++){
             for(int j=i-1;j>=0;j--)
-
+            
             if(arr[i]==arr[j]){
 
                 isDistinct=false;
